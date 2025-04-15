@@ -1,7 +1,7 @@
 syntax = "proto3";
 
-option go_package = "./greeter";
-option java_package = "com.example.grpc.pb.greeter";
+option go_package = "./v1/greeter";
+option java_package = "com.example.grpc.pb.v1.greeter";
 option java_multiple_files = true;
 
 service Greeter {
